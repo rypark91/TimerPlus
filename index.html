@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Timer Plus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="day">
+    <nav>
+        <h6>Theme:</h6>
+        <button id="dayButton">Day</button>
+        <button id="nightButton">Night</button>
+        <h6>Mode:</h6>
+        <button id="timer">Timer</button>
+        <button id="countDown">Count Down</button>
+    </nav>
+    <h1>Timer Plus</h1>
+    
+    
+    <div class="contain">
+      <div class="clock">
+        <p><span id="minute10">0</span><span id="minute1">0</span><span id="colin">:</span><span id="second10">0</span><span id="second1">0</span><span id="colin">:</span><span id="millisecond10">0</span><span id="millisecond1">0</span></p>
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+        <button id="reset">reset</button>
+        <button id="lap">lap</button>
+      </div>
+      
+    </div>
+    <p class="lapDisplay" style="font-size: 20px; text-align: center;">
+        Lap time:
+      </p>
+    <ul class="listDisplay">
+        <!-- Starts out as an empty list of lap times -->
+    </ul>
+    <div class="countDownContainer">
+        <div class="clockCount">
+          <button id="minuteUp">u</button>
+          <button id="secondUp">u</button><br>
+          <p><span id="minute10Count">0</span><span id="minute1Count">0</span><span id="colin">:</span><span id="second10Count">0</span><span id="second1Count">0</span></p>
+          <button id="minuteDown">d</button>
+          <button id="secondDown">d</button><br>
+          <button id="startCount">start</button>
+          <button id="stopCount">stop</button>
+          <button id="resetCount">reset</button>
+        </div>
+    </div>
+
+    <p id="copy">Practice site by Ryan Park &copy;2024</p>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

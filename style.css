@@ -1,0 +1,144 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+  
+  }
+  nav{
+    text-align: right;
+
+    }
+  h1{
+    text-align: center;
+    font-size: 80px;
+  }
+  h6{
+    display: inline;
+    font-size: 24px;
+  }
+  p{
+    letter-spacing: 4.0px;
+    transform: translateY(50%);
+  }
+  ul{
+    height: 90px;
+    overflow: auto;
+  }
+  li{
+    font-size: 12px;
+    text-align: center;
+    list-style-type: none;
+    transform: translateY(150%);
+  }
+  .day{
+    color: red;
+  }
+  .night{
+    color: #88fc30;
+    background-color: rgb(23, 23, 23);
+  }
+  .clock, .clockCount{
+    display: inline-block;
+    background-color: rgb(83, 83, 83);
+    border: 2px black solid;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+  
+  }
+  .nightclock, .nightclockCount{
+      display: inline-block;
+      border: 2px white solid;
+      border-radius: 50%;
+      width: 350px;
+      height: 350px;
+      text-align: center;
+      align-items: center;
+  }
+  .contain{
+    text-align: center;
+    
+  }
+  .contain .clock p{
+    line-height: 2;
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+  .contain .nightclock p{
+    line-height: 2;
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+  .countDownContainer{
+    text-align: center;
+    display: none;
+    
+  }
+  #minute10{
+    border-left: 1.5px gray solid;
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #minute1{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #second10{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #second1{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #millisecond10{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #millisecond1{
+    border-right: 1.5px gray solid;
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #minute10Count{
+    border-left: 1.5px gray solid;
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #minute1Count{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #second10Count{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  #second1Count{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    border-right: 1.5px gray solid;
+    background-color: gray;
+  }
+  #colin{
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    background-color: gray;
+  }
+  .lapDisplay{
+    display: block;
+  }
+  #copy{
+    text-align: center;
+    font-size: 24px;
+  }
